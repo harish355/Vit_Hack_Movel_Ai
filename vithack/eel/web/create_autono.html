@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script type="text/javascript" src="/eel.js"></script>
+    <script src="content.js" defer></script>
+    <script type="text/javascript" src="Create_autonomous.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/create_autono.css">
+</head>
+<title>Sev Bot</title>
+<body style="background-color:#DEF2F1">
+  <nav class="navbar">
+    <div class="brand-title">Sev Bot</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="manual.html">Manual</a></li>
+        <li><a href="autonomus.html">Autonomous</a></li>
+      </ul>
+    </div>
+  </nav>
+    <center>
+    <h1 style="font-size:5vw;">Create!</h1>
+      <h4 style="font-size:3vw;">Drive around with Joystick</h4>
+      <div class="box">
+      <ul><h6 style="font-size:2vw;">
+        <li>Open a terminal an run this command
+          <ul>
+            <li>Export TURTLEBOT3_MODEL=waffle</li>
+            <li>Roslaunch turtlebot3_slam turtlebot3_slam.launch</li>
+          </ul>
+        </li>
+        <li>slam_methods:=gmapping</li>
+        <li>After that go to manual page and navigate the robot to all parts of the home</li>
+        <li>Then open one more terminal and type
+        <ul><li>Rosrun map_server map_saver -f my_map</li></ul></li>
+        <li>After creating map click on this button to create submaps</li>
+      </h5></ul>
+    </div>
+ </center>   <button id="button" class="btn" onclick="sub_map()" value="#">Submap create</button>
+    <button id="button" class="btn" onclick="sub_mapa()" value="#">Submap name</button>
+</body>
+</html>

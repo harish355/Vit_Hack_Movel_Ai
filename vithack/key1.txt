@@ -1,0 +1,2 @@
+9c1051d6fd30494493cf800c618d260e
+https://centralindia.api.cognitive.microsoft.com/sts/v1.0/issuetoken
