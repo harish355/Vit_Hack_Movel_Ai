@@ -16,3 +16,7 @@ Vit Hack 2020<br>
   <li>Then navigate to home/vithack/eel And run python main.py</li>
   <li>Follow the instructions in gui. Enjoy :D</li>
 </ul>
+
+<h2>Presentation:</h2>
+<a href="https://he-s3.s3.amazonaws.com/media/sprint/vit-hack-3/team/901014/45341c6vithack__1_.ppt">Click me to Download PPT</a>
+
